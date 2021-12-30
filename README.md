@@ -1,4 +1,4 @@
-# GRUBBY GRABBER bababooya
+# GRUBBY GRABBER
 Lexicon for alternate titles:
 Larvarie -> Larva + vary  
 Larvariant  
