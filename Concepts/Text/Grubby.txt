@@ -1,0 +1,55 @@
+GRUBBY GRABBER
+
+
+
+Synopsis: Player has to perform an emergency landing on an alien planet, that is made of giant islands emerging from the abyss. Stepping off the cliff will "kill" the player by teleporting them back to where they fell from, on low HP. Player spawns around the spaceship /a structure-object, not area/ with minimal resources enough for survival. Area around Spaceship is a safe zone, where no enemies spawn. You can constantly increase/upgrade etc. Technology tree = spaceship has crafting stations, incubators, etc. with upgrades. You can encapsulate this base to take it and fly to other islands, if you manage to get some fuel. The fuel is ver important: goal of the game is to bank enough fuel to fly home with the spaceship. The first island where the player spawns is constant and remains so during the entirety of the game. The other islands generate when the player manages to land on them, but despawn if the player leaves them without building a structure there. Over the course of the game, the player will receive hints that it's encouraged visit to other islands, to gain more/better/newer resources.
+The player will be aided by insect-like creatures to fulfill their goal. They will be guided to the first egg by hints - for instance following a silk tread into the forest. The first egg needs to placed in an incubator in order to hatch. A basic, rudimentary incubator will be provided at the start of the game, that can be upgraded later.
+The first task for the player would be to make the incubator work. /HOW?/ When the egg hatches, a grub will emerge, and its class will be determined by the hatching conditions /brightness, temperature, humidity/. If brightness=low=nightbuggrub. If temperature=low=tankbuggrub. If humidity=low=fightbuggrub. We should keep this vague, so more classes and combinations can be added later /for instance, new class if brightness and temp high at the same time/. Should hints appear that player can do this?
+Each individual class has attributes, that are easier to improve in their case, attribues that are boosted/prone to. Nightbug would excel at flight+intelligence, Tankbug excels at defense+stamina, Fightbug excels at speed+attack, but nothing would rule out anything, this would merely make raising the insects faster in those stats. E.g. It's possible to increase Nightbug's speed and attack, but the proccess would be slower. 
+Appearance: The grubs will begin to change their appearance depending of how much points the player has invested in them. Mandibles grow exponentially larger by invested points, intelligence grows antennae, etc. based on this chart
+			
+			- Stamina -> size 				RESILIENCE 
+			- Attack -> pincers, mandibles 			AGGRESSION
+			- Defense -> chithin exoskeleton, thickness	ARMOR	
+			- Dexterity/fly -> wings			NIMBLENESS
+			- Speed/movement -> grasshopper leg		SWIFTNESS
+			- Int/wis -> antennae				PERCEPTION
+
+
+Howver, the player character can influence what they will evolve into. The player's actions and decisions will influence what they will evole into.
+	The animals can evolve in many different ways with many different attributes, and the actions of the players will culminates in a final end state, depending on what the player may want.
+Gamestyle:
+	Meta (View, graphics, etc.): 3D third person, free camera(?),  
+	Art direction : Similar to Harvest Moon on GameCube -> Stylised, cute, simplistic, put detail into characters, textures, avoid crypt rat and WoW prairie dog.
+	Player character concept : Maybe some spacesuit (SUS) guy in helmet, with basic custumisation - Suit style, colour, sex, shoulder/waist width, muscle-fat distribution, (height should be standard I think)
+Story idea:
+	
+	You are an interstellar zoologist, who is tasked with investigating designated planets. Due to management not investing enough resources into your mission, you need to make a pitstop at an uncharted planet due to lack of supplies. You land, hoping you can refill your inventory. But as you began to investigate, you notice that the planet harbors the type of life the management would be interested in. You decide to stay and continue your assignment on this planet instead, and use the limited supplies you have in your spaceship. You need resources and a base, as soon as possible, so you can start the work.
+	
+Game mechanics
+	Gameplay loop:
+		Start: Map generation, everything is accessible but soft-locks may be present. Player shall be guided towards the first egg, rather than getting it by default. The world can be foraged for basic supplies, but mainly player gets stuff that can be used to raise the grubbies.
+		Midgame: Grubs/insects produce various resources, that can be used to upgrade equipment and/or the player. These can not be gained from elsewhere, to motivate the player to keep hatching, raising and collecting stuff from the insects they encounter.
+		EndGame:
+		New game+?:
+	Insect growth:
+		So according to Jul's idea, they will have 5-7 attributes, which can be trained/improved with inputs by the player, including but not exlusively : Interaction between player and insect, food, items, interactions between the other insects, environment, etc. 
+		Attributes will contribute to the creature's look - look will be determined how well each of these attributes are developed. For instance, stamina could be responsible to its overall size: if stamina level is higher, the creature grows in size.
+		Stats :
+			- HP -> thicc
+			- Stamina -> size
+			- Attack -> pincers, mandibles
+			- Defense -> chithin exoskeleton
+			- Dexterity/fly -> wings
+			- Speed/movement -> grasshopper leg
+			- Int/wis -> antennae
+	Equipment progression:
+		Vision -> Combat should stay somewhat stagnant, as in imporovements will never make fights trivial, rather they should instead cut foraging/hunting time short, by rewarding better/more resources. The incentive should not be combat oriented, it should focus on passive attributes : collect/foraging more and faster, move faster, more information about enemies, lore. Combat improvements should be minimalized (however try to make it rewarding if possible).
+		Try to guide the player into a direction, where knowledge and information is why you are able to make your place in the game world, rather than strength and stats
+	Combat:
+		Something akin to WildStar, where attacks are just areas described mathematically, instead of hitboxes and such. The attackt take up a place in their designated areas, assigned to an enemy, the player is encouraged to dodge/avoid them instea of taking the hits. The attacks can occur semi-randomly with a decision tree (state machine/pseudo-AI).
+	Player roles:
+	World contents:
+	Enemies:
+
+Insect types in detail
